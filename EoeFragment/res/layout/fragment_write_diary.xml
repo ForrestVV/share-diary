@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	    
+    <com.eoe.tampletfragment.view.TitleView
+      android:id="@+id/title_write_diary"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" />
+    
+        
+    <com.eoe.tampletfragment.listview.writediary_bottom_item
+        android:id="@+id/bottom_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        
+    </com.eoe.tampletfragment.listview.writediary_bottom_item>
+    
+    <EditText
+        android:id="@+id/write_diary_multitext"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="true"
+        android:gravity="top|left"
+	    android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:imeOptions="actionDone"
+        >
+    </EditText>           
+
+</LinearLayout>

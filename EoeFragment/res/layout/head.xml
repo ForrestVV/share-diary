@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	 >
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/head_contentLayout"
+        android:paddingLeft="30dp">
+        
+        <FrameLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true">
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/arrow_down"
+                android:id="@+id/head_arrowImageView"
+                />
+        </FrameLayout>
+        <ProgressBar 
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/head_progressbar"
+                android:visibility="gone"/>
+        
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:gravity="center_vertical" >
+            
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="下拉刷新"
+                android:textSize="15dp"
+                android:id="@+id/head_tipsTextView"/>   
+                
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上次更新"
+                android:textSize="12dp"
+                android:id="@+id/head_lastUpdatedTextView"/>
+        </LinearLayout>
+        
+    </RelativeLayout>
+</LinearLayout>

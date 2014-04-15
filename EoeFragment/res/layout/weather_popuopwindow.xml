@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="3"
+    android:background="#b0000000"
+    
+   	>
+
+    <ImageView
+        android:id="@+id/weather_imgview01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_01" 
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        />
+    
+    <ImageView
+        android:id="@+id/weather_imgview02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_02" 
+                android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        />
+
+    <ImageView
+        android:id="@+id/weather_imgview03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_03"
+               android:layout_row="0"
+        android:layout_column="2"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip" 
+        android:layout_marginRight="30dip"
+        />
+    
+    <ImageView
+        android:id="@+id/weather_imgview04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_04"
+                android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+
+         />
+    
+    <ImageView
+        android:id="@+id/weather_imgview05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_05" 
+                android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+
+        />
+    
+    <ImageView
+        android:id="@+id/weather_imgview06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_06" 
+                android:layout_row="1"
+        android:layout_column="2"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginBottom="20dip"
+
+        />
+    
+
+</GridLayout>

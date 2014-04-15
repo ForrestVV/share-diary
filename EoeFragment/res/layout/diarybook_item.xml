@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <TextView 
+        android:id="@+id/diarybook_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:textSize="27sp"
+        android:layout_marginTop="25dip"/>
+    
+    <TextView 
+        android:id="@+id/diarybook_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:layout_marginLeft="10dip"
+        android:textColor="#ffff0000"
+        android:layout_gravity="center_vertical"/>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        >
+        
+        <TextView 
+            android:id="@+id/diarybook_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            />
+        
+        <TextView 
+            android:id="@+id/diarybook_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:lines="2"
+            />
+    </LinearLayout>
+
+      <ImageView 
+        android:id="@+id/diarybook_mood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="50dip"
+        />        
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    <ImageView 
+        android:id="@+id/diarybook_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginRight="5dip"
+        android:layout_alignParentRight="true"/>
+    </RelativeLayout>   
+    
+	</LinearLayout>
+	
+	<TextView 
+	    android:id="@+id/diarybook_content"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dip"
+		android:textStyle="bold"
+	    />
+</LinearLayout>
